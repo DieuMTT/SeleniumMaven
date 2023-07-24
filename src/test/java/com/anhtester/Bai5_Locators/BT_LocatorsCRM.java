@@ -60,12 +60,14 @@ public class BT_LocatorsCRM {
     public static String dropdownStatus = "//label[@for='status']/following-sibling::div[contains(@class, 'dropdown')]";
     public static String optionStatus = "//span[normalize-space()='On Hold']";
     public static String inputTotalRate = "//label[normalize-space()='Total Rate']/following-sibling::input";
+    public static String inputRatePerHour ="//label[normalize-space()='Rate Per Hour']/following-sibling::input";
     public static String inputEstimatedHours = "//label[normalize-space()='Estimated Hours']/following-sibling::input";
     public static String dropdownMembers = "//label[normalize-space()='Members']/following-sibling::div//button[@data-toggle='dropdown']";
     public static String inputSearchMembers = "//label[normalize-space()='Members']/following-sibling::div//input[@type='search']";
     public static String inputStartDate = "//label[@for='start_date']/following-sibling::div//input";
     public static String inputDeadline = "//label[@for='deadline']/following-sibling::div//input";
     public static String inputTags = "//label[normalize-space()='Tags']/following-sibling::input";
+    public static String inputTagsMe = "//label[normalize-space()='Tags']/following-sibling::ul//input";
     public static String inputDescription = "//body[@data-id='description']"; //Cần phải switch sang iframe (học bài 13)
     public static String lebelSendProject = "//label[normalize-space()='Send project created email']";
     public static String checkboxSendProject = "//label[normalize-space()='Send project created email']/preceding-sibling::input";

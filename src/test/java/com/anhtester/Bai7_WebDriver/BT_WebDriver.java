@@ -3,6 +3,7 @@ package com.anhtester.Bai7_WebDriver;
 import com.anhtester.Bai5_Locators.BT_LocatorsCRM;
 import com.anhtester.common.BaseTest;
 import org.openqa.selenium.By;
+import org.openqa.selenium.DeviceRotation;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -21,12 +22,27 @@ public class BT_WebDriver extends BaseTest {
         //Step 2: Input data
         driver.findElement(By.xpath(BT_LocatorsCRM.inputProjectName)).sendKeys(" Project Name 1");
         driver.findElement(By.xpath(BT_LocatorsCRM.dropdownCustomer)).click();
-        driver.findElement(By.xpath(BT_LocatorsCRM.inputSearchCustomer)).sendKeys("AC");
-        sleep(1);
-        Actions action = new Actions(driver);
-        action.sendKeys(Keys.ENTER).perform();
+        sleep(2);
+        driver.findElement(By.xpath(BT_LocatorsCRM.inputSearchCustomer)).sendKeys("Company1");
+        driver.findElement(By.xpath("//a[@id='bs-select-6-0']")).click();
         driver.findElement(By.xpath(BT_LocatorsCRM.dropdownBillingType)).click();
         driver.findElement(By.xpath(BT_LocatorsCRM.optionBillingType)).click();
+        driver.findElement(By.xpath(BT_LocatorsCRM.dropdownStatus)).click();
+        driver.findElement(By.xpath(BT_LocatorsCRM.optionStatus)).click();
+        driver.findElement(By.xpath(BT_LocatorsCRM.inputRatePerHour)).sendKeys("10");
+        driver.findElement(By.xpath(BT_LocatorsCRM.inputEstimatedHours)).sendKeys("10");
+        driver.findElement(By.xpath(BT_LocatorsCRM.dropdownMembers)).click();
+        driver.findElement(By.xpath(BT_LocatorsCRM.inputSearchMembers)).sendKeys("Admin Example");
+        Actions action = new Actions(driver);
+        action.sendKeys(Keys.ENTER).perform();
+
+//        driver.findElement(By.xpath(BT_LocatorsCRM.inputStartDate)).sendKeys("25-07-2023");
+//        driver.findElement(By.xpath(BT_LocatorsCRM.inputDeadline)).sendKeys("26-07-2023");
+        driver.findElement(By.xpath(BT_LocatorsCRM.inputTagsMe)).sendKeys("Java");
+
+
+
+
 
 
 //        closeBrowser();

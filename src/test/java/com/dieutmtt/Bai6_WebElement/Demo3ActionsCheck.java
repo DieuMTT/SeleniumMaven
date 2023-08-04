@@ -1,4 +1,4 @@
-package com.anhtester.Bai6_WebElement;
+package com.dieutmtt.Bai6_WebElement;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

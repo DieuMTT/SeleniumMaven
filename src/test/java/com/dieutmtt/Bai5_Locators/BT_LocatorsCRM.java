@@ -1,4 +1,4 @@
-package com.anhtester.Bai5_Locators;
+package com.dieutmtt.Bai5_Locators;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

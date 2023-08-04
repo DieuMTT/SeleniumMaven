@@ -1,14 +1,10 @@
-package com.anhtester.Bai7_WebDriver;
+package com.dieutmtt.Bai7_WebDriver;
 
-import com.anhtester.Bai5_Locators.BT_LocatorsCRM;
-import com.anhtester.common.BaseTest;
+import com.dieutmtt.Bai5_Locators.BT_LocatorsCRM;
+import com.dieutmtt.common.BaseTest;
 import org.openqa.selenium.By;
-import org.openqa.selenium.DeviceRotation;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-
-import javax.swing.*;
 
 public class BT_WebDriver extends BaseTest {
     public static void main(String[] args) {

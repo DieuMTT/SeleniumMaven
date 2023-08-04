@@ -1,7 +1,7 @@
-package com.anhtester.Bai7_WebDriver;
+package com.dieutmtt.Bai7_WebDriver;
 
-import com.anhtester.Bai5_Locators.BT_LocatorsCRM;
-import com.anhtester.common.BaseTest;
+import com.dieutmtt.Bai5_Locators.BT_LocatorsCRM;
+import com.dieutmtt.common.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 

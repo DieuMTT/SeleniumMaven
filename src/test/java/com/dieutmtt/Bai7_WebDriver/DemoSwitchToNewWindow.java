@@ -1,13 +1,7 @@
-package com.anhtester.Bai7_WebDriver;
+package com.dieutmtt.Bai7_WebDriver;
 
-import com.anhtester.common.BaseTest;
-import org.openqa.selenium.Cookie;
-import org.openqa.selenium.WebDriver;
+import com.dieutmtt.common.BaseTest;
 import org.openqa.selenium.WindowType;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.time.Duration;
-import java.util.Set;
 
 public class DemoSwitchToNewWindow extends BaseTest {
 

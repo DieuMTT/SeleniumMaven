@@ -1,10 +1,9 @@
-package com.anhtester.Bai7_WebDriver;
+package com.dieutmtt.Bai7_WebDriver;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
 

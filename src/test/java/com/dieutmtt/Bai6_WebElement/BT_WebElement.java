@@ -1,7 +1,7 @@
-package com.anhtester.Bai6_WebElement;
+package com.dieutmtt.Bai6_WebElement;
 
-import com.anhtester.Bai5_Locators.BT_LocatorsCRM;
-import com.anhtester.common.BaseTest;
+import com.dieutmtt.Bai5_Locators.BT_LocatorsCRM;
+import com.dieutmtt.common.BaseTest;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 
